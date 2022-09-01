@@ -69,3 +69,28 @@ textarea {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
+
+
+/* Media Query */
+@media screen and (max-width: 769px), screen and (max-width: 575px) {
+  .row {
+    margin-top: 20px;
+    height: auto;
+  }
+
+  .saveBtn {
+    height: 50px;
+    border: 0;
+    border-radius: 0.24rem
+  }
+
+  .hour {
+    padding-right: 16%;
+  }
+
+  textarea {
+    min-height: 86px;
+    border: 0;
+  }
+  
+}
