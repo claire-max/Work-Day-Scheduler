@@ -70,10 +70,11 @@ textarea {
   transition: all 0.3s ease-in-out;
 }
 
-input:focus {
+button:focus {
   outline: none;
 }
-button:focus {
+
+input:focus {
   outline: none;
 }
 

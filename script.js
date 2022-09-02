@@ -44,16 +44,16 @@ for (var i=0;i<idsCollection.length; i++) {
 }
 
 $("button").on("click", function() {
-  event.preventDefault();
-  var container = $(this).parent().parent();  
-  var inputValue = container.find("input").val();
-  var inputId = container.find("input").attr("id");
-  var textObj = {
-    "input-id": inputId,
-    "input-value": inputValue };
-  
-  if (textObj["input-value"] !== "") {
-    plannerContent.push(textObj);
-    localStorage.setItem("planner-items", JSON.stringify(plannerContent));
-  }
-});
+    event.preventDefault();
+    var container = $(this).parent().parent();  
+    var inputValue = container.find("input").val();
+    var inputId = container.find("input").attr("id");
+    var textObj = {
+      "input-id": inputId,
+      "input-value": inputValue };
+    
+    if (textObj["input-value"] !== "") {
+      plannerContent.push(textObj);
+      localStorage.setItem("planner-items", JSON.stringify(plannerContent));
+    }
+  });
