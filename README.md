@@ -40,3 +40,8 @@ The following animation demonstrates the application functionality:
 ## Technologies Used
 
 HTML CSS Javscript Moment.js
+
+
+## Deployed Link
+
+https://claire-max.github.io/Work-Day-Scheduler/
